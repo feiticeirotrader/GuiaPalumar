@@ -142,7 +142,7 @@ export function HospedagemSection({ isOpen, onToggle }: SectionProps) {
   return (
     <Accordion id="hospedagem" title={title} subtitle={subtitle} icon={Icon} iconColor={iconColor} isOpen={isOpen} onToggle={onToggle}>
       <div className="space-y-3">
-        <InfoRow label="Check-in ( negociavel )" value="14:00" />
+        <InfoRow label="Check-in" value="14:00" />
         <InfoRow label="Check-out até ( negociavel )" value="12:00" />
         <InfoRow label="Capacidade" value="4 hóspedes" />
       </div>
